@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  .headerContainer {
+    color: white;
+    width: 100%;
+    max-width: 1024px;
+    // background-color: rgb(104, 104, 248);你可以用這個看container範圍
+    //container 不包括df 要讓 title des 自由往下排列
+    margin: 20px 0px 100px 0px; //margin 四個為上 左 下 右
+    .headerTitle {
+      font-size: 45px;
+    }
+    .headerDes {
+      margin-top: 10px;
+    }
+    .headerSearchBar {
+    }
+  }
+}
